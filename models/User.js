@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 // Create Schema
 
-const UserSchema = new UserSchema({
+const UserSchema = new Schema({
     name: {
         type: String,
         require: true
@@ -17,9 +17,10 @@ const UserSchema = new UserSchema({
         type: String,
         require: true
     },
+    // getting avatar using gravatar
     avatar: {
         type: String,
-        require: true
+        require: false
     },
     date: {
         type: Date,
