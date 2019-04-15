@@ -43,7 +43,7 @@ class Login extends Component {
               <p className="lead text-center">
                   Sign in to your account
               </p>
-              <form onSubmit={this.onSubmit}>
+              <form className="form-signin" onSubmit={this.onSubmit}>
                 <div className="form-group">
                   <input type="email" 
                   className="form-control form-control-lg"
@@ -62,8 +62,15 @@ class Login extends Component {
                   value={this.state.password}
                   onChange={this.onChange}
                   />
-                  
                 </div>
+                <div className="checkbox mb-3">
+                  <label>
+                    
+                  </label>
+                </div>
+                
+
+
                 <input type="submit" className="btn btn-info btn-block mt-4">
                 </input>
 
