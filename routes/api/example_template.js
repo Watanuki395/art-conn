@@ -14,6 +14,13 @@ router.get('/test', (req, res) => res.json({
 // @route GET api/post/test
 // @desc Test post route
 // @access Public
+router.post('/test', 
+passport.authenticate('jwt', 
+{ session: false}), 
+(req,res) => {
+    res.json('code goes here')
+});
+
 
 
 
