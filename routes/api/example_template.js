@@ -8,13 +8,13 @@ const passport = require('passport');
 // @desc Test post route
 // @access Public
 router.get('/test', (req, res) => res.json({
-    msg:"posts works"
+    msg:"test works"
 }));
 
 // @route GET api/post/test
 // @desc Test post route
 // @access Public
-router.post('/test', 
+router.post('/test2', 
 passport.authenticate('jwt', 
 { session: false}), 
 (req,res) => {
