@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 
 
-// @route GET api/post/test
-// @desc Test post route
-// @access Public
-router.get('/test', (req, res) => res.json({
-    msg:"test works"
+// @route GET api/upload
+// @desc Upload img to the server
+// @access Private
+router.get('/upload', (req, res) => res.json({
+    msg:"upload works"
 }));
 
 // @route GET api/post/test
@@ -20,6 +20,7 @@ passport.authenticate('jwt',
 (req,res) => {
     res.json('code goes here')
 });
+
 
 
 
