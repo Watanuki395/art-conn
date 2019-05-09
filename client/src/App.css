@@ -8,7 +8,7 @@ img {
 
 .landing {
   position: relative;
-  background: url("./img/art-con.jpg") no-repeat;
+  background: url("./img/art-con4.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -21,7 +21,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0;
