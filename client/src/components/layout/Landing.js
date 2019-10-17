@@ -34,35 +34,7 @@ class Landing extends Component {
                         className="btn btn-lg btn-light">
                         Login
                         </Link>
-                        <footer className="page-footer orange">
-                            <div className="container">
-                              <div className="row">
-                                <div className="col l6 s12">
-                                  <h5 className="text-white">Bio</h5>
-                                  <p className="text-white text-lighten-4">We are a team of entrepreneurs working on this project. Any feedback or support would help to continue the development on this project.</p>
-
-
-                                </div>
-                                <div className="col l3 s12">
-                                  <h5 className="text-white">Artcon</h5>
-                                  <ul>
-                                    <li><a className="text-white" href="#!">Sobre Nosotros</a></li>
-                                    <li><a className="text-white" href="#!">Contactanos</a></li>
-                                    <li><a className="text-white" href="#!">Soporte</a></li>
-                                    <li><a className="text-white" href="#!">Ayuda</a></li>
-                                  </ul>
-                                </div>
-                                <div className="col l3 s12" >
-                                  <h5 className="text-white">Contactanos</h5>
-                                  <ul>
-                                    <li><a className="text-white" align="left" href="#!"><i className="fab fa-facebook"/> Facebook</a></li>
-                                    <li><a className="text-white" align="left" href="#!"><i className="fab fa-instagram"/> Instagram</a></li>
-                                    <li><a className="text-white" align="left" href="#!"><i className="fab fa-twitter"/>Twitter</a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </footer>
+                        
                     </div>     
                 </div>
             </div>
